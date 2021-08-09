@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "cm": "cz"
+    "cm": "cz",
+    "prepare": "husky install"
   },
   "dependencies": {
     "next": "11.0.1",
@@ -18,7 +19,8 @@
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
     "eslint": "7.32.0",
-    "eslint-config-next": "11.0.1"
+    "eslint-config-next": "11.0.1",
+    "husky": "^7.0.1"
   },
   "config": {
     "commitizen": {
