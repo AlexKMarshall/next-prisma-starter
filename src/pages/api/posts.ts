@@ -8,6 +8,7 @@ export default async function handler(
   res: NextApiResponse
 ) {
   const posts = await prisma.post.findMany({})
+  console.log({ posts })
 
   res.status(200).json({ posts })
 }

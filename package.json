@@ -10,7 +10,8 @@
     "format": "prettier --write --ignore-path .gitignore",
     "tsc": "tsc --noEmit",
     "cm": "cz",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "ts-node": "ts-node --compiler-options \"{\\\"module\\\":\\\"commonjs\\\"}\""
   },
   "dependencies": {
     "@prisma/client": "2.28.0",
@@ -19,6 +20,7 @@
     "react-dom": "17.0.2"
   },
   "devDependencies": {
+    "@types/node": "^16.4.13",
     "@types/react": "^17.0.16",
     "commitizen": "^4.2.4",
     "cz-conventional-changelog": "^3.3.0",
@@ -29,6 +31,7 @@
     "lint-staged": ">=10",
     "prettier": "^2.3.2",
     "prisma": "2.28.0",
+    "ts-node": "^10.2.0",
     "typescript": "^4.3.5"
   },
   "config": {
