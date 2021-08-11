@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-import { HomeScreen } from 'src/modules/home'
+import { HomeScreen } from 'src/features/home'
 
 export default function Home() {
   return (
